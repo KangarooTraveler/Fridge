@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.chauthai.swipereveallayout.SwipeRevealLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:mode="same_level"
+    app:dragEdge="right"
+    android:id="@+id/rowLayout">
+
+    <LinearLayout
+        android:id="@+id/layout_deleteF"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        
+        <TextView
+            android:layout_width="105dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="11dp"
+            android:layout_marginBottom="11dp"
+            android:textColor="@color/colorWhite"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:background="@android:color/holo_red_light"
+            android:text="Удалить"/>
+
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="4dp"
+        app:cardUseCompatPadding="true"
+        android:padding="20dp"
+        android:clipToPadding="false"
+        android:id="@+id/rowMainLayout">
+
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/RelativeCustomRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="6dp">
+
+    <TextView
+        android:id="@+id/z_txt"
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+        android:text="Zagolovok"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="15dp"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+         />
+
+    <TextView
+        android:id="@+id/op_txt"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="190dp"
+        android:text="Opisanie"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        />
+
+            <TextView
+                android:id="@+id/color_Text"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:visibility="gone"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</com.chauthai.swipereveallayout.SwipeRevealLayout>

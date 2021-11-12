@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/menu_drawlerF"
+    >
+
+    <group android:id="@+id/firstbuttons">
+    <item
+        android:id="@+id/zametki"
+        android:title="Мои рецепты"
+        android:icon="@drawable/ic_library_booksf"/>
+
+        <item
+            android:id="@+id/ProductsFf"
+            android:title="Мои продукты"
+            android:icon="@drawable/ic_baseline_free_breakfast_24"/>
+
+        <item
+            android:id="@+id/SettingsF"
+            android:title="Настройки"
+            android:icon="@drawable/ic_settings_f"/>
+
+        <item android:id="@+id/darkTheme"
+            android:visible="false"
+            android:title="Темная тема"
+            android:actionLayout="@layout/theme_switch"/>
+
+
+</group>
+
+    <group android:id="@+id/exit">
+
+        <item
+            android:id="@+id/Oprogramme"
+            android:title="О программе"
+            android:icon="@drawable/ic__info_f"/>
+
+            <item
+                android:id="@+id/ExitF"
+                android:icon="@drawable/ic_f_exit_to_app_24"
+                android:title="Выход" />
+
+        </group>
+
+
+
+</menu>

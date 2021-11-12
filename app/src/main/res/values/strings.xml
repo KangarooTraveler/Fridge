@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">Fridge</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string-array name="Bluda_array">
+        <item>Соус бешамель</item>
+        <item>Салат из тунца</item>
+        <item>Салат "Цезарь"</item>
+        <item>Соус Тартар</item>>
+        <item>Салат с крабовыми палочками</item>
+        <item>Чесночный соус</item>>
+        <item>Соус Биг Тейсти</item>>
+        <item>Грибной суп-пюре с сырными гренками</item>
+        <item>Пирог с брокколи и курицей</item>
+        <item>Суп из чечевицы с копченостями</item>
+        <item>Печеная курица</item>
+        <item>Хачапури по-аджарски</item>
+        <item>Рататуй</item>
+        <item>Мясо по французки</item>
+        <item>Бургеры с лососем и яйцами-пашот</item>
+        <item>Филе трески в соусе из белого вина, с томатами черри и базиликом</item>
+        <item>Бисквитный рулет с бананами и вареньем</item>
+        <item>Томатно-чесночный соус</item>>
+        <item>Яблочно-грушевый крамбл с мёдом и орехами</item>
+    </string-array>
+
+    <string-array name="Bluda_array2">
+        <item>Соус Биг Тейсти</item>>
+        <item>Соус бешамель</item>
+        <item>Соус Тартар</item>
+        <item>Томатно-чесночный соус</item>
+    </string-array>
+
+    <string-array name="Bluda_array3">
+        <item>Салат из тунца</item>
+        <item>Салат "Цезарь"</item>
+        <item>Салат с крабовыми палочками</item>
+    </string-array>
+
+    <string-array name="id_forDrawTitles">
+        <item></item>
+        <item>Мои рецепты</item>
+        <item>Мои продукты</item>
+        <item>Настройки</item>
+        <item></item>
+        <item>О программе</item>
+        <item>Выход</item>
+    </string-array>
+
+    <array name="id_forDrawIcons">
+        <item>@drawable/ic_closem</item>
+        <item>@drawable/ic_library_booksf</item>
+        <item>@drawable/ic_baseline_free_breakfast_24</item>
+        <item>@drawable/ic_settings_f</item>
+        <item>0</item>
+        <item>@drawable/ic__info_f</item>
+        <item>@drawable/ic_f_exit_to_app_24</item>
+    </array>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ladislav_inc">Ladislav Inc.</string>
+    <string name="Search">search</string>
+    <string name="Text1">
+        Данное приложение содержит в себе обширное количество функций.
+ Редактирование, добавление записей, просмотр рецептов и фильтрация имеются в свободном доступе для пользователя.
+Первый раздел&lt;b> "Мои рецепты" &lt;/b> отвечает за автоматизацию добавленных записей пользователем.
+    </string>
+
+    <string name="spravochnik">
+          &lt;br /&gt;
+          &lt;br /&gt;
+     &lt;font color="#FF0000">This is colored in red &lt;/font> This is not
+   <br />
+        <b>rer</b>
+    &lt;h1> This is h1 heading &lt;/h1>
+    &lt;br /&gt;
+    &lt;h3> This is h2 subheading&lt;/h3>
+    &lt;br /&gt;
+    &lt;b> This text is bold&lt;/b>
+    &lt;br /&gt;
+    &lt;i> This text is italic&lt;/i>
+    &lt;br /&gt;
+    Android users expect your app to look and behave in a way that is
+    consistent with the platform. Not only should you follow material
+    design guidelines for visual and navigation patterns,
+    but you should also follow quality guidelines for compatibility,
+    performance, security, and more.
+    &lt;br /&gt;
+    &lt;br /&gt;
+    The following links provide everything you need to design a high quality Android app.
+    </string>
+
+    <string name="Text2">
+    Пользователю доступно добавление, редактирование, удаление как индивидуального рецепта, так и всех рецептов, имеющихся в списке.
+    Функция &lt;b> "Посторонняя ссылка" &lt;/b> способна сохранить вашу запись как &lt;font color="#FF0000">ссылку &lt;/font>, изменяя цвет записи в листе на красный.
+    </string>
+
+    <string name="Text3">
+    Второй раздел &lt;b> "Мои продукты"  &lt;/b>
+        полностью передает всю суть самого приложения, умеет хранить добавленные продукты и их срок годности. При нажатии на кнопку  &lt;b> добавить &lt;/b> всплывает окно с ограниченным списком продуктов на выбор.
+        Пользователь может выбрать из имеющихся, либо же написать свое собственное название продукта, указать срок изготовления продукта и его количество.
+    </string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+</resources>

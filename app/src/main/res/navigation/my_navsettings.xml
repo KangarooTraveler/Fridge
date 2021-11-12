@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/my_navsettings"
+    app:startDestination="@id/settingsF">
+    <fragment
+        android:id="@+id/settingsF"
+        android:name="com.example.fridge.SettingsF"
+        android:label="SettingsF" />
+</navigation>

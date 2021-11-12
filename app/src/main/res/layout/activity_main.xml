@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    app:appbarColor="@android:color/holo_orange_dark"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/DrawF"
+    android:background="@android:color/white"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constF"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <View
+                android:id="@+id/viewMain1"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:background="@android:color/holo_orange_dark"/>
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="15dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Поиск"
+                android:textAlignment="textStart"
+                android:textSize="40sp"
+                app:layout_constraintTop_toTopOf="@id/viewMain1"
+                app:layout_constraintStart_toStartOf="parent"/>
+
+            <ListView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:id="@+id/lv_listView"
+                android:divider="@android:color/white"
+                android:clickable="true"
+                app:layout_constraintTop_toBottomOf="@+id/viewMain1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <include
+            android:id="@+id/toolbarR"
+            layout="@layout/toolbar">
+        </include>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_emptyTextView"
+            android:text="Не найдено рецептов"
+            android:textSize="20sp"
+            android:visibility="gone"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>
