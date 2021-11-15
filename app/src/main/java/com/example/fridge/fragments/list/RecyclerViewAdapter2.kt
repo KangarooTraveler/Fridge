@@ -17,11 +17,6 @@ class RecyclerViewAdapter2(val arrayList2: ArrayList<ModelR>, val context: Conte
 
     var mContext: Context? = null
 
-    fun SubjectsAdapter(context: Context) {
-// Here we're getting the activity's context,
-// by setting the adapter on the activity with (this)
-        this.mContext = context
-    }
     class ViewHolder(itemView: View): RecyclerView.ViewHolder(itemView){
 
         fun bindItems (model: ModelR){
@@ -49,11 +44,6 @@ class RecyclerViewAdapter2(val arrayList2: ArrayList<ModelR>, val context: Conte
                     (context as AppCompatActivity).supportFragmentManager,
                     "Title")
                 (context as ProductsFOpen).slidingRootNav?.closeMenu()
-            //   newFragment.show(context, "Title")
-//               val IntentMessage = Intent(this.context, MainActivity::class.java)
-//                IntentMessage.putExtra("sup", "qq")
-//                LocalBroadcastManager.getInstance(context).sendBroadcast(IntentMessage);
-          //      Toast.makeText(this.context, "Временно недоступно.", Toast.LENGTH_SHORT).show()
             }
             if(position == 1){
                 System.exit(0)

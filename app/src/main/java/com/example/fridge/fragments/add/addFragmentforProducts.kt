@@ -210,12 +210,9 @@ class addFragmentforProducts : androidx.fragment.app.DialogFragment(), DatePicke
             savedMonth = month
             savedYear = year
 
-
-
         getDateTimeCalendar()
         DataTextProd.text = "$savedDay-$savedMonth-$savedYear"
-//        countDayP = savedDay.minus(day)
-//        test1.setText(countDayP)
+
     }
 
     private fun getDateTimeCalendar(){
